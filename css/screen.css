@@ -1,0 +1,44 @@
+.container.main {
+  margin-top: 30px;
+  max-width: 800px; }
+
+.row {
+  margin-bottom: 30px; }
+
+.header .bio-pic {
+  background: url("../img/kyleskogen.jpg");
+  background-size: cover;
+  border: 0px solid #777777;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%; }
+
+.filler-square {
+  position: relative;
+  width: 100%;
+  height: auto;
+  visibility: hidden; }
+
+.social-wrap .social-button-wrap {
+  position: relative; }
+.social-wrap .social-btn {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 2px solid #398CCD;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  cursor: pointer; }
+  .social-wrap .social-btn:hover {
+    border-color: #226598; }
+  .social-wrap .social-btn i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
