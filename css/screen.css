@@ -1,12 +1,33 @@
+body {
+  color: #AAA;
+  color: #f5fafd;
+  font-size: 16px;
+  line-height: 1.35em;
+  background: #1B1B1B; }
+
+a {
+  color: #949494;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -ms-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s; }
+  a:hover {
+    color: #444444;
+    text-decoration: none; }
+
+h1 {
+  color: #9B9A9A; }
+
 .container.main {
   margin-top: 30px;
-  max-width: 800px; }
+  max-width: 700px; }
 
 .row {
   margin-bottom: 30px; }
 
 .header .bio-pic {
-  background: url("../img/kyleskogen.jpg");
+  background: url("../img/kyleskogen-edit.jpg");
   background-size: cover;
   border: 0px solid #777777;
   border-radius: 50%;
@@ -21,24 +42,46 @@
 
 .social-wrap .social-button-wrap {
   position: relative; }
-.social-wrap .social-btn {
+.social-wrap a.social-btn {
   position: absolute;
   top: 0%;
   left: 0%;
   width: 100%;
   height: 100%;
-  background: #fff;
-  border: 2px solid #398CCD;
+  background: #333;
+  color: #949494;
   text-align: center;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  cursor: pointer; }
-  .social-wrap .social-btn:hover {
-    border-color: #226598; }
-  .social-wrap .social-btn i {
+  cursor: pointer;
+  -webkit-transition: background 0.4s, color 0.4s;
+  -moz-transition: background 0.4s, color 0.4s;
+  -ms-transition: background 0.4s, color 0.4s;
+  -o-transition: background 0.4s, color 0.4s;
+  transition: background 0.4s, color 0.4s; }
+  .social-wrap a.social-btn:hover {
+    color: #f5fafd; }
+  .social-wrap a.social-btn.twitter:hover {
+    background: #4BADF1; }
+  .social-wrap a.social-btn.linkedin:hover {
+    background: #0074B5; }
+  .social-wrap a.social-btn.github:hover {
+    background: #536E7E; }
+  .social-wrap a.social-btn.google-plus:hover {
+    background: #DF4E32; }
+  .social-wrap a.social-btn.vimeo:hover {
+    background: #1BB7EA; }
+  .social-wrap a.social-btn.music:hover {
+    background: #BA251D; }
+  .social-wrap a.social-btn.envelope:hover {
+    background: purple; }
+  .social-wrap a.social-btn i {
     position: absolute;
     top: 50%;
     left: 0;
     width: 100%;
     text-align: center; }
+
+.copyright {
+  color: #444444; }
