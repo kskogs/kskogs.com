@@ -4,7 +4,7 @@ $dark: #444;
 
 body {
 	color: #AAA;
-	color: $bright;
+	color: $light;
 	font-size: 16px;
 	line-height: 1.35em;
 	background: #1B1B1B;
@@ -12,14 +12,14 @@ body {
 }
 
 a {
-	color: $light;
+	color: $dark;
 	-webkit-transition: color 0.4s;
 	-moz-transition: color 0.4s;
 	-ms-transition: color 0.4s;
 	-o-transition: color 0.4s;
 	transition: color 0.4s;
 	&:hover {
-		color: $dark;
+		color: $bright;
 		text-decoration: none;
 	}
 }

@@ -1,19 +1,19 @@
 body {
   color: #AAA;
-  color: #f5fafd;
+  color: #949494;
   font-size: 16px;
   line-height: 1.35em;
   background: #1B1B1B; }
 
 a {
-  color: #949494;
+  color: #444444;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
   -ms-transition: color 0.4s;
   -o-transition: color 0.4s;
   transition: color 0.4s; }
   a:hover {
-    color: #444444;
+    color: #f5fafd;
     text-decoration: none; }
 
 h1 {
