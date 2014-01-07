@@ -3,7 +3,7 @@ body {
   color: #949494;
   font-size: 16px;
   line-height: 1.35em;
-  background: #1b1b1b url(http://subtlepatterns.com/patterns/dark_dotted.png);
+  background: #1b1b1b url("../img/dark_dotted.png");
   font-family: 'Istok Web', sans-serif; }
 
 a {
