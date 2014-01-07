@@ -3,10 +3,10 @@ body {
   color: #949494;
   font-size: 16px;
   line-height: 1.35em;
-  background: #1B1B1B; }
+  background: #1b1b1b url(http://subtlepatterns.com/patterns/dark_dotted.png); }
 
 a {
-  color: #444444;
+  color: #666666;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
   -ms-transition: color 0.4s;
@@ -21,7 +21,7 @@ h1 {
 
 .container.main {
   margin-top: 30px;
-  max-width: 600px; }
+  max-width: 700px; }
 
 .row {
   margin-bottom: 30px; }
@@ -33,6 +33,16 @@ h1 {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%; }
+.header .tagline p {
+  margin: 1em 0 0 0;
+  line-height: 1.5em; }
+.header .tagline i.fa {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center; }
+@media screen and (max-width: 530px) {
+  .header .tagline {
+    width: 100%; } }
 
 .social-wrap a.social-btn {
   display: block;
@@ -48,13 +58,15 @@ h1 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   cursor: pointer;
-  -webkit-transition: background 0.4s, color 0.4s;
-  -moz-transition: background 0.4s, color 0.4s;
-  -ms-transition: background 0.4s, color 0.4s;
-  -o-transition: background 0.4s, color 0.4s;
-  transition: background 0.4s, color 0.4s; }
+  opacity: 0.5;
+  -webkit-transition: background 0.4s, color 0.4s, opacity 0.4s;
+  -moz-transition: background 0.4s, color 0.4s, opacity 0.4s;
+  -ms-transition: background 0.4s, color 0.4s, opacity 0.4s;
+  -o-transition: background 0.4s, color 0.4s, opacity 0.4s;
+  transition: background 0.4s, color 0.4s, opacity 0.4s; }
   .social-wrap a.social-btn:hover {
-    color: #f5fafd; }
+    color: #f5fafd;
+    opacity: 1; }
   .social-wrap a.social-btn.twitter:hover {
     background: #4BADF1; }
   .social-wrap a.social-btn.linkedin:hover {
