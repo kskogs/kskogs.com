@@ -3,12 +3,16 @@ $(document).ready(function() {
 	$(".social-btn").fitText(0.25);
 
 	var middlefy = function() {
-		$(".social-button-wrap i").each(function() {
-			var iconHeight = $(this).height();
-			var buttonHeight = $(this).parents(".social-btn").height();
-			var math = (buttonHeight - iconHeight) / 2;
-			$(this).css("top", math);
-		});
+		// make social button circular:
+		var btnWidth = $(".social-btn").width();
+		$(".social-btn").css("height", btnWidth);
+		$(".bio-pic").css("height", btnWidth);
+		// center icon:
+		var target = $(".social-btn i");
+		var iconHeight = target.height();
+		var buttonHeight = target.parents(".social-btn").height();
+		var math = (buttonHeight - iconHeight) / 2;
+		target.css("top", math);
 	};
 	middlefy();
 
