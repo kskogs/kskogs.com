@@ -52,6 +52,11 @@ h1 {
 		p {
 			margin: 1em 0 0 0;
 			line-height: 1.5em;
+			span {
+				@media screen and (max-width: 400px) {
+					display: none;
+				}
+			}
 		}
 		i.fa {
 			margin-right: 10px;
