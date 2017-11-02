@@ -4,32 +4,28 @@ $dark: #666;
 $verydark: #444;
 
 body {
-	color: #AAA;
-	color: $light;
+	color: $dark;
 	font-size: 16px;
 	line-height: 1.35em;
-	background: #fff;
-	// background-image: url(http://reconstruction.bold-themes.com/wp-content/uploads/2015/04/bricks_light_1.jpg);
-	// background-position: 50% 0px;
-	// background-size: cover;
+	// background: #1B1B1B;
 	font-family: 'Istok Web', sans-serif;
 }
 
 a {
-	color: $dark;
+	color: $light;
 	-webkit-transition: color 0.4s;
 	-moz-transition: color 0.4s;
 	-ms-transition: color 0.4s;
 	-o-transition: color 0.4s;
 	transition: color 0.4s;
 	&:hover {
-		color: $bright;
+		color: $verydark;
 		text-decoration: none;
 	}
 }
 
 h1 {
-	color: #9B9A9A;
+	color: $dark;
 	font-family: 'Istok Web', sans-serif;
 }
 
@@ -44,7 +40,7 @@ h1 {
 
 .header{
 	.bio-pic {
-		background: url('../img/kyle-skogen-profile.jpg') no-repeat center center;
+		background: url('../img/kyleskogen.jpg') no-repeat center center;
 		background-size: cover;
 		border: 0px solid #777777;
 		border-radius: 50%;
@@ -52,7 +48,6 @@ h1 {
 		-moz-border-radius: 50%;
 	}
 	.tagline {
-		margin: 1.5em 0 0 0;
 		p {
 			margin: 1em 0 0 0;
 			line-height: 1.5em;
@@ -81,8 +76,9 @@ h1 {
 		left: 0%;
 		width: 100%;
 		height: 100%;
-		background: #333;
-		color: $light;
+		// background: #333;
+		background: #CFCFCF;
+		color: #000;
 		text-align: center;
 		border-radius: 50%;
 		-webkit-border-radius: 50%;
@@ -132,5 +128,5 @@ h1 {
 }
 
 .copyright {
-	color: $verydark;
+	color: $dark;
 }
