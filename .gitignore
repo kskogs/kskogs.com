@@ -1,3 +1,7 @@
 
 brainstorming.xml
 /img
+
+*.codekit
+
+scss/.sass-cache
