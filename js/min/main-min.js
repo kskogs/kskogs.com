@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".social-btn").fitText(.25);var i=function(){var i=$(".bio-pic").width(),t=$(".social-btn").width();$(".bio-pic").css("height",i),$(".social-btn").css("height",t);var c=$(".social-btn i"),n=c.height(),o=c.parents(".social-btn").height(),s=(o-n)/2;c.css("top",s)};i(),$(window).resize(function(){i()})});

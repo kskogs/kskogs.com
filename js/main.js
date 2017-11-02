@@ -1,12 +1,13 @@
 $(document).ready(function() {
-	
+
 	$(".social-btn").fitText(0.25);
 
 	var middlefy = function() {
 		// make social button circular:
+		var bioWidth = $(".bio-pic").width();
 		var btnWidth = $(".social-btn").width();
+		$(".bio-pic").css("height", bioWidth);
 		$(".social-btn").css("height", btnWidth);
-		$(".bio-pic").css("height", btnWidth);
 		// center icon:
 		var target = $(".social-btn i");
 		var iconHeight = target.height();

@@ -2,6 +2,10 @@ body {
   color: #666;
   font-size: 16px;
   line-height: 1.35em;
+  background: #FFF;
+  background-image: url(http://reconstruction.bold-themes.com/wp-content/uploads/2015/04/bricks_light_1.jpg);
+  background-position: 50% 0px;
+  background-size: cover;
   font-family: 'Istok Web', sans-serif; }
 
 a {
@@ -26,70 +30,86 @@ h1 {
 .row {
   margin-bottom: 30px; }
 
-.header .bio-pic {
-  background: url("../img/kyle-skogen-profile.jpg") no-repeat center center;
-  background-size: cover;
-  border: 0px solid #777777;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%; }
-.header .tagline p {
-  margin: 1em 0 0 0;
-  line-height: 1.5em; }
-  @media screen and (max-width: 400px) {
-    .header .tagline p span {
-      display: none; } }
-.header .tagline i.fa {
-  margin-right: 10px;
-  width: 20px;
-  text-align: center; }
-@media screen and (max-width: 530px) {
+.header {
+  padding: 1em 0 0 0; }
+  .header .bio-pic {
+    background: url("../img/kyle-skogen-profile.jpg") no-repeat center center;
+    background-size: cover;
+    border: 0px solid #777777;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3); }
   .header .tagline {
-    width: 100%; } }
+    margin: 1em 0 0 0; }
+    .header .tagline h1 {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 0.2em 0.6em 0.2em 0.4em; }
+    .header .tagline p {
+      margin: 1em 0 0 0;
+      padding: 0.2em 0.6em 0.2em 0.4em;
+      line-height: 1.5em;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.4); }
+      @media screen and (max-width: 400px) {
+        .header .tagline p span {
+          display: none; } }
+    .header .tagline i.fa {
+      margin-right: 10px;
+      width: 20px;
+      text-align: center; }
+    @media screen and (max-width: 530px) {
+      .header .tagline {
+        width: 100%; } }
 
-.social-wrap a.social-btn {
-  display: block;
-  position: relative;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  background: #CFCFCF;
-  color: #000;
-  text-align: center;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  cursor: pointer;
-  opacity: 0.5;
-  -webkit-transition: background 0.4s, color 0.4s, opacity 0.4s;
-  -moz-transition: background 0.4s, color 0.4s, opacity 0.4s;
-  -ms-transition: background 0.4s, color 0.4s, opacity 0.4s;
-  -o-transition: background 0.4s, color 0.4s, opacity 0.4s;
-  transition: background 0.4s, color 0.4s, opacity 0.4s; }
-  .social-wrap a.social-btn:hover {
-    color: #F5FAFD;
-    opacity: 1; }
-  .social-wrap a.social-btn.twitter:hover {
-    background: #4BADF1; }
-  .social-wrap a.social-btn.linkedin:hover {
-    background: #0074B5; }
-  .social-wrap a.social-btn.github:hover {
-    background: #536E7E; }
-  .social-wrap a.social-btn.google-plus:hover {
-    background: #DF4E32; }
-  .social-wrap a.social-btn.vimeo:hover {
-    background: #1BB7EA; }
-  .social-wrap a.social-btn.music:hover {
-    background: #BA251D; }
-  .social-wrap a.social-btn.envelope:hover {
-    background: purple; }
-  .social-wrap a.social-btn i {
-    position: absolute;
-    top: 50%;
-    left: 0;
+.social-wrap {
+  padding: 2em 0; }
+  .social-wrap a.social-btn {
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 0%;
     width: 100%;
-    text-align: center; }
+    height: 100%;
+    background: #CFCFCF;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transition: background 0.4s, color 0.4s, opacity 0.4s;
+    -moz-transition: background 0.4s, color 0.4s, opacity 0.4s;
+    -ms-transition: background 0.4s, color 0.4s, opacity 0.4s;
+    -o-transition: background 0.4s, color 0.4s, opacity 0.4s;
+    transition: background 0.4s, color 0.4s, opacity 0.4s; }
+    .social-wrap a.social-btn:hover {
+      color: #F5FAFD;
+      opacity: 1; }
+    .social-wrap a.social-btn.twitter:hover {
+      background: #4BADF1; }
+    .social-wrap a.social-btn.linkedin:hover {
+      background: #0074B5; }
+    .social-wrap a.social-btn.github:hover {
+      background: #536E7E; }
+    .social-wrap a.social-btn.google-plus:hover {
+      background: #DF4E32; }
+    .social-wrap a.social-btn.vimeo:hover {
+      background: #1BB7EA; }
+    .social-wrap a.social-btn.music:hover {
+      background: #BA251D; }
+    .social-wrap a.social-btn.envelope:hover {
+      background: purple; }
+    .social-wrap a.social-btn.paypal:hover {
+      background: #042467; }
+    .social-wrap a.social-btn i {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      text-align: center; }
 
 .copyright {
   color: #666; }
