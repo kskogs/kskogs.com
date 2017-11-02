@@ -8,7 +8,10 @@ body {
 	color: $light;
 	font-size: 16px;
 	line-height: 1.35em;
-	background: #1B1B1B;
+	background: #fff;
+	// background-image: url(http://reconstruction.bold-themes.com/wp-content/uploads/2015/04/bricks_light_1.jpg);
+	// background-position: 50% 0px;
+	// background-size: cover;
 	font-family: 'Istok Web', sans-serif;
 }
 
@@ -41,7 +44,7 @@ h1 {
 
 .header{
 	.bio-pic {
-		background: url('../img/kyleskogen-edit.jpg') no-repeat center center;
+		background: url('../img/kyle-skogen-profile.jpg') no-repeat center center;
 		background-size: cover;
 		border: 0px solid #777777;
 		border-radius: 50%;
@@ -49,6 +52,7 @@ h1 {
 		-moz-border-radius: 50%;
 	}
 	.tagline {
+		margin: 1.5em 0 0 0;
 		p {
 			margin: 1em 0 0 0;
 			line-height: 1.5em;

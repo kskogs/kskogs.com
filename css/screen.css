@@ -3,18 +3,18 @@ body {
   color: #949494;
   font-size: 16px;
   line-height: 1.35em;
-  background: #1B1B1B;
+  background: #fff;
   font-family: 'Istok Web', sans-serif; }
 
 a {
-  color: #666666;
+  color: #666;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
   -ms-transition: color 0.4s;
   -o-transition: color 0.4s;
   transition: color 0.4s; }
   a:hover {
-    color: #f5fafd;
+    color: #F5FAFD;
     text-decoration: none; }
 
 h1 {
@@ -29,25 +29,27 @@ h1 {
   margin-bottom: 30px; }
 
 .header .bio-pic {
-  background: url("../img/kyleskogen-edit.jpg") no-repeat center center;
+  background: url("../img/kyle-skogen-profile.jpg") no-repeat center center;
   background-size: cover;
   border: 0px solid #777777;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%; }
-.header .tagline p {
-  margin: 1em 0 0 0;
-  line-height: 1.5em; }
-  @media screen and (max-width: 400px) {
-    .header .tagline p span {
-      display: none; } }
-.header .tagline i.fa {
-  margin-right: 10px;
-  width: 20px;
-  text-align: center; }
-@media screen and (max-width: 530px) {
-  .header .tagline {
-    width: 100%; } }
+.header .tagline {
+  margin: 1.5em 0 0 0; }
+  .header .tagline p {
+    margin: 1em 0 0 0;
+    line-height: 1.5em; }
+    @media screen and (max-width: 400px) {
+      .header .tagline p span {
+        display: none; } }
+  .header .tagline i.fa {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center; }
+  @media screen and (max-width: 530px) {
+    .header .tagline {
+      width: 100%; } }
 
 .social-wrap a.social-btn {
   display: block;
@@ -70,7 +72,7 @@ h1 {
   -o-transition: background 0.4s, color 0.4s, opacity 0.4s;
   transition: background 0.4s, color 0.4s, opacity 0.4s; }
   .social-wrap a.social-btn:hover {
-    color: #f5fafd;
+    color: #F5FAFD;
     opacity: 1; }
   .social-wrap a.social-btn.twitter:hover {
     background: #4BADF1; }
@@ -94,4 +96,4 @@ h1 {
     text-align: center; }
 
 .copyright {
-  color: #444444; }
+  color: #444; }
