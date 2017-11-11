@@ -1,7 +1,4 @@
 
-brainstorming.xml
-/img
+config.codekit
 
-*.codekit
-
-scss/.sass-cache
+scss/
